@@ -42,7 +42,9 @@
     .container{
         @include flex-center-center;
         flex-direction: column;  
-        background: $medium_electric_blue;
+        background-image: url('../../img/banner-soluciones-samsung.webp');
+        background-position: center;
+        background-repeat: no-repeat;
         border-radius: 36px; 
         padding: 30px;  
 

@@ -48,6 +48,9 @@
 
     &__content{
         @include flex-center-center;
+        background-image: url('../../img/fondo-serv-espe.webp');
+        background-position: center;
+        background-repeat: no-repeat;
         flex-direction: column;
         background-color: red;
         padding: 30px;
