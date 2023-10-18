@@ -30,7 +30,6 @@
             @include flex-center-center;
             flex-direction: column;
             gap: 15px;
-            padding: 30px ;
 
             &__imagen{
                 height: 91px;
@@ -57,16 +56,6 @@
                         font-size: 25px;
                     }
     
-                }
-    
-                p{
-                    color: $Meteorite;
-                    font-size: 15px;
-                    text-align: center;
-            
-                    @media(min-width: 1199px){
-                        font-size: 18px;
-                    }
                 }
             }
         }

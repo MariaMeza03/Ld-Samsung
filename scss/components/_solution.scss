@@ -85,4 +85,40 @@
            
         }
     }
+
+    &__button{
+        @include flex-center-center;
+
+        a{
+            border: 2px solid $Bluish_Purple;
+            margin-top: 15px;
+            background-color:$Bluish_Purple;
+            font-family: Poppins-Bold;
+            font-weight: bold;
+            padding: 15px 80px ;
+            color:$white;
+            border-radius: 20px;
+            text-align: center;
+
+            @media(min-width:300px){
+                font-size: 20px;         
+            }
+
+            @media(min-width:768px){
+                font-size: 25px;
+                
+            }
+
+            @media(min-width:1199px){
+                margin-top: 30px;
+            }
+ 
+        }
+
+        a:hover{
+            background-color:$white ;
+            color: $Bluish_Purple;
+            border: 2px solid $Bluish_Purple;
+        }
+    }
 }

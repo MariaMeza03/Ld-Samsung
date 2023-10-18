@@ -415,8 +415,7 @@
       align-items: center;
       justify-content: center;
       flex-direction: column;
-      gap: 15px;
-      padding: 30px; }
+      gap: 15px; }
       .services__grid__item__imagen {
         height: 91px;
         margin: auto; }
@@ -440,13 +439,6 @@
           @media (min-width: 1199px) {
             .services__grid__item__text h1 {
               font-size: 25px; } }
-        .services__grid__item__text p {
-          color: #32236F;
-          font-size: 15px;
-          text-align: center; }
-          @media (min-width: 1199px) {
-            .services__grid__item__text p {
-              font-size: 18px; } }
 
 .solution {
   width: 100%;
@@ -511,6 +503,33 @@
         .solution__text__information__text span {
           font-weight: bold;
           color: #6A49F2; }
+  .solution__button {
+    display: flex;
+    align-items: center;
+    justify-content: center; }
+    .solution__button a {
+      border: 2px solid #6A49F2;
+      margin-top: 15px;
+      background-color: #6A49F2;
+      font-family: Poppins-Bold;
+      font-weight: bold;
+      padding: 15px 80px;
+      color: white;
+      border-radius: 20px;
+      text-align: center; }
+      @media (min-width: 300px) {
+        .solution__button a {
+          font-size: 20px; } }
+      @media (min-width: 768px) {
+        .solution__button a {
+          font-size: 25px; } }
+      @media (min-width: 1199px) {
+        .solution__button a {
+          margin-top: 30px; } }
+    .solution__button a:hover {
+      background-color: white;
+      color: #6A49F2;
+      border: 2px solid #6A49F2; }
 
 .offer {
   width: 100%;
@@ -744,7 +763,6 @@
     text-align: center; }
     @media (min-width: 1199px) {
       .the_best p.subtitle {
-        text-align: start;
         font-size: 18px; } }
   .the_best .container {
     display: flex;
@@ -835,10 +853,6 @@
   width: 100%;
   position: relative;
   height: auto;
-  background-image: url("../img/background_one.webp");
-  background-size: cover;
-  background-position: center;
-  background-repeat: no-repeat;
   /*margin-top: 80px;*/
   display: flex;
   align-items: center;
@@ -846,10 +860,6 @@
   padding: 0 0 30px 0; }
   @media (min-width: 1199px) {
     .domestic {
-      background-image: url("../img/background_three.webp");
-      background-size: cover;
-      background-position: center;
-      background-repeat: no-repeat;
       height: auto;
       padding: 0 0 60px 0; } }
   .domestic .container {
@@ -874,7 +884,7 @@
         align-items: flex-start;
         justify-content: center; } }
     .domestic__text h1 {
-      color: black;
+      color: #6A49F2;
       font-size: 20px;
       font-family: Poppins-Bold;
       text-align: center; }
