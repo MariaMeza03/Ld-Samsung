@@ -674,9 +674,9 @@
       background-color: #6A49F2;
       font-family: Poppins-Bold;
       font-weight: bold;
-      padding: 15px 30px;
+      padding: 15px 80px;
       color: white;
-      border-radius: 28px;
+      border-radius: 20px;
       text-align: center; }
       @media (min-width: 300px) {
         .offer__button a {
@@ -813,9 +813,9 @@
       background-color: white;
       font-family: Poppins-Bold;
       font-weight: bold;
-      padding: 15px 30px;
+      padding: 15px 80px;
       color: #6A49F2;
-      border-radius: 28px;
+      border-radius: 20px;
       text-align: center; }
       @media (min-width: 300px) {
         .the_best__button a {
