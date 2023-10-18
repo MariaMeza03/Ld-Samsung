@@ -404,8 +404,7 @@
   .services__grid {
     display: grid;
     grid-template-columns: repeat(1, 1fr);
-    gap: 15px;
-    padding-top: 30px; }
+    gap: 15px; }
     @media (min-width: 750px) {
       .services__grid {
         grid-template-columns: repeat(3, 1fr);
@@ -539,7 +538,7 @@
   padding: 30px 0 30px 0; }
   @media (min-width: 1199px) {
     .offer {
-      padding: 60px 0 0 0; } }
+      padding: 60px 0 60px 0; } }
   .offer .container {
     display: flex;
     align-items: center;
@@ -874,11 +873,11 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  padding: 0 0 30px 0; }
+  padding: 30px 0 30px 0; }
   @media (min-width: 1199px) {
     .domestic {
       height: auto;
-      padding: 0 0 60px 0; } }
+      padding: 60px 0 60px 0; } }
   .domestic .container {
     display: flex;
     align-items: center;
