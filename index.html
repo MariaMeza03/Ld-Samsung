@@ -444,11 +444,34 @@
 				<div class="domestic__text">
 					<h1>Contacto</h1>
 					<p>El mejor servicio de reparación y mantenimiento de Línea Blanca Samsung está aquí.</p>
-                    <h1>¡DÉJANOS AYUDARTE!</h1>
+                    <h1 style="padding: 10px 0;">¡DÉJANOS AYUDARTE!</h1>
                     
-						<div class="domestic__text__button">
-							<a href="https://api.whatsapp.com/send?phone=5612635082&text=Hola%20quiero%20cotizar" target="_blank">¡Recibe atención inmediata!</a>
-						</div>
+                    <form class="domestic__text__inputs"  id="formContact" class="contact__form">
+                        <div class="domestic__text__inputs__input">
+                            <label>Nombre:</label>
+                            <input id="nombre" name="nombre"  type="text"/>
+                        </div>
+
+                        <div class="domestic__text__inputs__input">
+                            <label>Correo:</label>
+                            <input  id="email" name="email"  type="text"/>
+                        </div>
+
+                        <div class="domestic__text__inputs__input">
+                            <label>Número de teléfono:</label>
+                            <input id="telefono" name="telefono"  type="text"/>
+                        </div>
+
+                        <div class="domestic__text__inputs__input" style="display: flex; flex-direction: column;">
+                            <label>Mensaje</label>
+                            <textarea name="mensaje"  id="mensaje" ></textarea>
+                        </div>
+
+                        <div class="domestic__text__inputs__input__button">
+                            <button type="submit"  name="enviar" value="Send" >ENVIAR</button>
+                        </div>
+                    </form>
+
 				</div>
                 
                 <div class="domestic__imagen">
@@ -495,34 +518,34 @@
 
                 <div class="form__question">
 
-                    <form class="form__question__inputs"  id="formContact" class="contact__form">
+                    <form class="domestic__text__inputs"  id="formContact" class="contact__form">
 
                         <div class="form__question__grid">
-                            <div class="form__question__inputs__input">
+                            <div class="domestic__text__inputs__input">
                                 <input id="nombre" name="nombre" placeholder="NOMBRE" type="text"/>
                             </div>
     
-                            <div class="form__question__inputs__input">
+                            <div class="domestic__text__inputs__input">
                                 <input  id="email" name="email" placeholder="EMAIL" type="text"/>
                             </div>
                         </div>
                         
                         <div class="form__question__grid">
-                            <div class="form__question__inputs__input">
+                            <div class="domestic__text__inputs__input">
                                 <input id="telefono" name="telefono" placeholder="TELÉFONO" type="text"/>
                             </div>
 
-                            <div class="form__question__inputs__input">
+                            <div class="domestic__text__inputs__input">
                                 <input id="servicio" name="servicio" placeholder="SERVICIO" type="text"/>
                             </div>
                         </div>
 
 
-                        <div class="form__question__inputs__input" style="display: flex; flex-direction: column;">
+                        <div class="domestic__text__inputs__input" style="display: flex; flex-direction: column;">
                             <textarea name="comentarios"  id="comentarios" placeholder="COMENTARIOS"></textarea>
                         </div>
 
-                        <div class="form__question__inputs__input__button">
+                        <div class="domestic__text__inputs__input__button">
                             <button type="submit"  name="" value="Send" >ENVIAR</button>
                         </div>
                     </form>

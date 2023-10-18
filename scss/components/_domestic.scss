@@ -63,45 +63,73 @@
             }
         }
 
-        &__button{
-            @include flex-center-center;
-    
-            @media(min-width:1199px){
-                @include flex-center-end;
-            }
-    
-            a{
-                border: 2px solid $elephant;
-                margin-top: 15px;
-                background-color:$elephant;
-                font-family: Poppins-Bold;
-                font-weight: bold;
-                padding: 15px 30px ;
-                color:white;
-                border-radius: 28px;
-                text-align: center;
-    
-                @media(min-width:300px){
-                    font-size: 20px;         
-                }
-    
-                @media(min-width:768px){
-                    font-size: 25px;
-                    
-                }
-    
+        &__inputs{
+            width: 100%;
+            
+            &__input{
                 @media(min-width:1199px){
-                    margin-top: 30px;
+                    padding:7.5px 0;
                 }
-     
-            }
+
+                label{
+                    color: $Bluish_Purple;
+                    font-family:Poppins-Bold;
+                    font-size: 15px;
+        
+                    @media(min-width: 1199px){
+                        font-size: 18px;
+                    }
+                }
     
-            a:hover{
-                background-color:$white ;
-                color: $elephant;
-                border: 2px solid $elephant;
+                input{
+                    width: 100%;
+                    padding: 15px;
+                    background-color: $harp;
+                    border: none;
+                    border-radius: 7px;
+                    margin-top: 10px;
+                }
+                
+                textarea{
+                    height: 200px;
+                    padding: 15px;
+                    background-color: $harp;
+                    border: none;
+                    border-radius: 7px;
+                    margin-top: 10px;
+                }
+
+                &__button{
+                    width: 100%;
+                    @include flex-center-center;
+
+                    button{
+                        width: 100%;
+                        border: 2px solid $Bluish_Purple;
+                        margin-top: 10px;
+                        background-color:$Bluish_Purple;
+                        font-family: Poppins-Bold;
+                        padding: 15px ;
+                        color:$white;
+                        font-size: 15px;
+                        text-align: center;
+                        border-radius: 20px;
+
+                        @media(min-width: 1199px){
+                            font-size: 18px;
+                        }
+                    }
+            
+                    button:hover{
+                        background-color:$white ;
+                        color: $elephant;
+                        border: 2px solid $elephant;
+                    }
+                }
             }
+
         }
+
     }
 
 

@@ -708,8 +708,8 @@
           margin-top: 30px; } }
     .offer__button a:hover {
       background-color: white;
-      color: #6A49F2;
-      border: 2px solid #6A49F2; }
+      color: #253596;
+      border: 2px solid #253596; }
 
 .swiper {
   width: 100%;
@@ -906,38 +906,55 @@
         .domestic__text p {
           text-align: start;
           font-size: 18px; } }
-    .domestic__text__button {
-      display: flex;
-      align-items: center;
-      justify-content: center; }
+    .domestic__text__inputs {
+      width: 100%; }
       @media (min-width: 1199px) {
-        .domestic__text__button {
-          display: flex;
-          align-items: center;
-          justify-content: flex-end; } }
-      .domestic__text__button a {
-        border: 2px solid #253596;
-        margin-top: 15px;
-        background-color: #253596;
+        .domestic__text__inputs__input {
+          padding: 7.5px 0; } }
+      .domestic__text__inputs__input label {
+        color: #6A49F2;
         font-family: Poppins-Bold;
-        font-weight: bold;
-        padding: 15px 30px;
-        color: white;
-        border-radius: 28px;
-        text-align: center; }
-        @media (min-width: 300px) {
-          .domestic__text__button a {
-            font-size: 20px; } }
-        @media (min-width: 768px) {
-          .domestic__text__button a {
-            font-size: 25px; } }
+        font-size: 15px; }
         @media (min-width: 1199px) {
-          .domestic__text__button a {
-            margin-top: 30px; } }
-      .domestic__text__button a:hover {
-        background-color: white;
-        color: #253596;
-        border: 2px solid #253596; }
+          .domestic__text__inputs__input label {
+            font-size: 18px; } }
+      .domestic__text__inputs__input input {
+        width: 100%;
+        padding: 15px;
+        background-color: #F6F6F6F6;
+        border: none;
+        border-radius: 7px;
+        margin-top: 10px; }
+      .domestic__text__inputs__input textarea {
+        height: 200px;
+        padding: 15px;
+        background-color: #F6F6F6F6;
+        border: none;
+        border-radius: 7px;
+        margin-top: 10px; }
+      .domestic__text__inputs__input__button {
+        width: 100%;
+        display: flex;
+        align-items: center;
+        justify-content: center; }
+        .domestic__text__inputs__input__button button {
+          width: 100%;
+          border: 2px solid #6A49F2;
+          margin-top: 10px;
+          background-color: #6A49F2;
+          font-family: Poppins-Bold;
+          padding: 15px;
+          color: white;
+          font-size: 15px;
+          text-align: center;
+          border-radius: 20px; }
+          @media (min-width: 1199px) {
+            .domestic__text__inputs__input__button button {
+              font-size: 18px; } }
+        .domestic__text__inputs__input__button button:hover {
+          background-color: white;
+          color: #253596;
+          border: 2px solid #253596; }
   .domestic__imagen {
     position: relative;
     top: 0;
@@ -1068,13 +1085,13 @@
     .form__question__inputs__input input {
       width: 100%;
       padding: 15px;
-      background-color: #EAEFF2;
+      background-color: #F6F6F6F6;
       border: none;
       border-radius: 32px; }
     .form__question__inputs__input textarea {
       height: 200px;
       padding: 15px;
-      background-color: #EAEFF2;
+      background-color: #F6F6F6F6;
       border: none;
       border-radius: 32px; }
     .form__question__inputs__input__button {
