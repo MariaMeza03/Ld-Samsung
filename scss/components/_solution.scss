@@ -61,12 +61,13 @@
                 flex-direction: column;
 
                 &__imagen{
-                    width: 87px;
+                    width: 70px;
                 }
             }
 
             &__text{
                 max-width: 800px;
+                width: 300px;
                 p{
                     color: $Meteorite;
                     font-size: 15px;

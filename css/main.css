@@ -490,9 +490,10 @@
         justify-content: center;
         flex-direction: column; }
         .solution__text__information__imagen_line__imagen {
-          width: 87px; }
+          width: 70px; }
       .solution__text__information__text {
-        max-width: 800px; }
+        max-width: 800px;
+        width: 300px; }
         .solution__text__information__text p {
           color: #32236F;
           font-size: 15px;
