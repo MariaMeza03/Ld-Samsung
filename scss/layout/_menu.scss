@@ -4,7 +4,7 @@
 	position: fixed;
 	top: 0;
     left: -200%;
-	background: $science_blue;
+	background: rgba(255,255,255,0.8);
 	z-index: 100;
 	padding: 30px 5px;
 	transition: 0.3s;
@@ -36,7 +36,7 @@
 
                 a.phone{
                     font-size: 15px;
-                    color: $white;
+                    color:$Meteorite;
 					font-weight: 400;
                     transition: 0.3s;
         

@@ -8,27 +8,6 @@
         padding: 60px 0 60px 0;
     }
 
-    h1.title{
-        color: $black;
-        font-size: 20px;
-        text-align: center;
-        font-family: Lato-Bold;
-
-        
-        @media(min-width:768px){
-            font-size: 25px;
-        }
-
-        @media(min-width:1199px){
-            font-size: 30px;
-            padding-bottom: 30px;
-        }
-        
-        @media(min-width:1700px){
-            font-size: 35px;
-        }
-    }
-
     .container{
         @include flex-center-center;
         flex-direction: column;     
@@ -48,7 +27,7 @@
         }
 
         @media(min-width: 1199px){
-            grid-template-columns: repeat(4, 1fr);
+            grid-template-columns: repeat(3, 1fr);
             gap: 30px;
             
         }
@@ -58,37 +37,13 @@
             flex-direction: column;
             gap: 15px;
             padding: 30px ;
-            box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.10);
 
-            @media(min-width: 1199px){
-                @include flex-start-start;
-            }
-    
-            &:hover{
-                background-color: $medium_electric_blue;
-    
-                .services__grid__item__text{
-                    h1,p{
-                        color: $white;
-                    }
-                }
-    
-                .services__grid__item__imagen{
-                    img{
-                        filter: sepia(100%) brightness(200%) saturate(0%) contrast(1000%);
-                        -webkit-filter: sepia(100%) brightness(200%) saturate(0%) contrast(1000%);
-                        -moz-filter: sepia(100%) brightness(200%) saturate(0%) contrast(1000%);
-                    }
-                }
-            }
-    
-    
             &__imagen{
                 height: 91px;
                 margin: auto;
 
                 @media(min-width: 768px){
-                    @include flex-start-center;
+                    @include flex-center-center;
                     margin: 0;
                 }
             }
@@ -97,16 +52,12 @@
                 @include flex-center-center;
                 flex-direction:column;
                 gap: 15px;
-
-                @media(min-width: 1199px){
-                    @include flex-start-center;
-                }
     
                 h1{
-                    color: $water_blue;
+                    color: $Bluish_Purple_two;
                     font-size: 20px;
                     text-align: center;
-                    font-family: Lato-Regular;
+                    font-family: Poppins-Bold;
             
                     @media(min-width:1199px){
                         font-size: 25px;
@@ -115,8 +66,9 @@
                 }
     
                 p{
-                    color: $black;
+                    color: $Meteorite;
                     font-size: 15px;
+                    text-align: center;
             
                     @media(min-width: 1199px){
                         font-size: 18px;
@@ -125,48 +77,5 @@
             }
         }
     }
-
-    &__button{
-        @include flex-center-center;
-
-        @media(min-width:1199px){
-            @include flex-center-end;
-        }
-
-        a{
-            border: 2px solid $elephant;
-            margin-top: 15px;
-            background-color:$elephant;
-            font-family: OpenSans-Bold;
-            font-weight: bold;
-            padding: 15px 30px ;
-            color:white;
-            border-radius: 28px;
-            text-align: center;
-
-            @media(min-width:300px){
-                font-size: 20px;         
-            }
-
-            @media(min-width:768px){
-                font-size: 25px;
-                
-            }
-
-            @media(min-width:1199px){
-                margin-top: 30px;
-            }
-
-        }
-
-        a:hover{
-            background-color:$white ;
-            color: $elephant;
-            border: 2px solid $elephant;
-        }
-    }
-    
-
-
 
 }

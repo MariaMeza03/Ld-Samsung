@@ -135,12 +135,12 @@
                 }
 
                 a.phone{
-					font-family: Lato-Regular;
+					color:$Meteorite;
                     font-size: 18px;
-                    color: $white;
                     font-weight: 400;
                     padding: 10px 0px ;
                     transition: 0.3s;
+					font-weight: bold;
         
                 }  
             }

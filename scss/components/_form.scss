@@ -33,7 +33,7 @@
         h1{
             color: $white;
             font-size: 20px;
-            font-family: Lato-Bold;
+            font-family: Poppins-Bold;
             text-align: center;
             
             @media(min-width:768px){
@@ -96,7 +96,7 @@
                 }
     
                 a.phone{
-                    font-family: Lato-Regular;
+                    font-family: Poppins-Regular;
                     font-size: 15px;
                     color: $white;
                     font-weight: 400;
@@ -178,7 +178,7 @@
                         border: 2px solid $elephant;
                         margin-top: 10px;
                         background-color:$elephant ;
-                        font-family: OpenSans-Bold;
+                        font-family: Poppins-Bold;
                         padding: 15px ;
                         color: $white;
                         font-size: 15px;

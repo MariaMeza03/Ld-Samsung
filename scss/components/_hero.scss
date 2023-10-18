@@ -2,21 +2,9 @@
     width: 100%;
 	position: relative;
 	height: auto;
-    background-image:url('../img/background_one.webp');	
-    background-size:cover;
-    background-position:center;
-    background-repeat: no-repeat; 
-    /*margin-top: 80px;*/
+    margin-top: 80px;
    @include flex-center-center;
 
-    @media(min-width:1199px){
-        background-image:url('../img/background.webp');	
-        background-size:cover;
-        background-position:center;
-        background-repeat: no-repeat; 
-        height: auto;
-        padding: 350px 0;
-    }
 
 
     .container{
@@ -39,11 +27,11 @@
         }
         
         h1{
-            color: $black;
+            color: $Meteorite;
             font-size: 25px;
             font-weight:bold;
             text-align: center;
-            font-family: Lato-Bold;
+            font-family: Poppins-Bold;
             line-height: 32px;
 
             @media(min-width:768px){ //*phone
@@ -66,7 +54,7 @@
             font-size: 25px;
             font-weight:bold;
             text-align: center;
-            font-family: Lato-Bold;
+            font-family: Poppins-Bold;
             line-height: 32px;
 
             @media(min-width:768px){ //*phone
@@ -84,12 +72,12 @@
                 font-size: 66px;
             }
             
-            color: $water_blue;
+            color: $Bluish_Purple;
         }
 
         p{
             padding-top: 25px;
-            color: $black;
+            color: $Meteorite;
             font-size: 20px;
             text-align: center;
             line-height: 25px;
@@ -104,6 +92,7 @@
         }
 
         &__button{
+            width: 100%;
             @include flex-center-center;
 
             @media(min-width:1199px){
@@ -111,14 +100,15 @@
             }
 
             a{
-                border: 2px solid $elephant;
+                width: 100%;
+                border: 2px solid $Bluish_Purple;
                 margin-top: 30px;
-                background-color:$elephant ;
-                font-family: OpenSans-Bold;
-                padding: 15px 30px ;
+                background-color:$Bluish_Purple ;
+                font-family: Poppins-Bold;
+                padding: 20px 30px ;
                 color:white;
                 font-size: 15px;
-                border-radius: 28px;
+                border-radius: 20px;
                 text-align: center;
 
                 @media(min-width:300px){
@@ -133,12 +123,11 @@
 
             a:hover{
                 background-color:$white ;
-                color: $science_blue;
-                border: 2px solid $science_blue;
+                color: $Bluish_Purple;
+                border: 2px solid $Bluish_Purple;
             }
         }
     }
-
 
     &__imagen{
         position: relative;
@@ -147,11 +136,6 @@
         display: block;
         width: 100%;
         @include flex-center-start;
-
-        @media(min-width:1199px){
-            display: none ;
-        }
     }
-
 
 } 
