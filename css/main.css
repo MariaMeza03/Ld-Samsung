@@ -544,7 +544,8 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    flex-direction: column; }
+    flex-direction: column;
+    border-radius: 20px; }
   .offer--prev {
     position: absolute;
     left: 15px;
@@ -573,9 +574,9 @@
     justify-content: center;
     background-image: url("../../img/fondo-serv-espe.webp");
     background-position: center;
+    background-size: cover;
     background-repeat: no-repeat;
     flex-direction: column;
-    background-color: red;
     padding: 30px;
     border-radius: 20px;
     width: 100%; }
@@ -785,6 +786,7 @@
     background-image: url("../../img/banner-soluciones-samsung.webp");
     background-position: center;
     background-repeat: no-repeat;
+    background-size: cover;
     border-radius: 36px;
     padding: 30px; }
     @media (min-width: 1199px) {
@@ -886,7 +888,8 @@
     @media (min-width: 1199px) {
       .domestic .container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr); } }
+        grid-template-columns: repeat(2, 1fr);
+        gap: 30px; } }
   .domestic__text {
     width: 100%;
     display: flex;
@@ -984,7 +987,10 @@
   width: 100%;
   height: auto;
   padding: 30px 0;
-  background: #5D70D6; }
+  background-image: url("../../img/fondo.webp");
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: cover; }
   @media (min-width: 1199px) {
     .form {
       padding: 60px 0; } }
@@ -999,139 +1005,77 @@
         display: grid;
         grid-template-columns: repeat(3, 1fr);
         gap: 30px; } }
-  .form__text {
-    width: 100%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    gap: 15px; }
-    @media (min-width: 1199px) {
-      .form__text {
-        display: flex;
-        align-items: flex-start;
-        justify-content: center; } }
-    .form__text h1 {
-      color: white;
-      font-size: 20px;
-      font-family: Poppins-Bold;
-      text-align: center; }
-      @media (min-width: 768px) {
-        .form__text h1 {
-          font-size: 25px; } }
-      @media (min-width: 1199px) {
-        .form__text h1 {
-          font-size: 30px;
-          text-align: start; } }
-      @media (min-width: 1700px) {
-        .form__text h1 {
-          font-size: 35px; } }
-    .form__text p {
-      color: white;
-      font-size: 15px;
-      text-align: center; }
-      @media (min-width: 1199px) {
-        .form__text p {
-          text-align: start;
-          font-size: 18px; } }
-    .form__text__grid {
+  .form__imagen {
+    width: 100%; }
+    .form__imagen__row {
+      width: 100%;
       display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      gap: 15px; }
-      @media (min-width: 768px) {
-        .form__text__grid {
-          grid-template-columns: repeat(3, 1fr); } }
-      @media (min-width: 1199px) {
-        .form__text__grid {
-          grid-template-columns: repeat(1, 1fr); } }
-      .form__text__grid__item {
-        width: 100%;
-        background-color: #253596;
-        padding: 5px 20px;
+      grid-template-columns: repeat(2, 1fr);
+      margin: auto; }
+      .form__imagen__row__imagen {
+        width: 180px; }
+      .form__imagen__row__text {
         display: flex;
         align-items: center;
-        justify-content: flex-start;
-        gap: 10px;
-        border-radius: 17px; }
-        .form__text__grid__item__icon {
-          width: 20px; }
-          @media (min-width: 1700px) {
-            .form__text__grid__item__icon {
-              width: 30px; } }
-          .form__text__grid__item__icon svg {
-            width: 100%; }
-        .form__text__grid__item a.phone {
-          font-family: Poppins-Regular;
+        justify-content: center; }
+        .form__imagen__row__text p {
+          color: #32236F;
           font-size: 15px;
-          color: white;
-          font-weight: 400;
-          padding: 10px 0px;
-          transition: 0.3s; }
+          padding: 3px;
+          font-weight: bold; }
           @media (min-width: 1199px) {
-            .form__text__grid__item a.phone {
+            .form__imagen__row__text p {
               font-size: 18px; } }
-  .form__question {
-    grid-column: 2/4;
+  .form__text {
+    grid-column: 1/3;
     width: 100%;
     margin: auto;
-    border-radius: 10px; }
-    @media (min-width: 678px) {
-      .form__question {
-        padding: 0; } }
-    .form__question__grid {
-      padding-bottom: 15px;
-      display: grid;
-      grid-template-columns: repeat(1, 1fr);
-      gap: 15px; }
-      @media (min-width: 1199px) {
-        .form__question__grid {
-          grid-template-columns: repeat(2, 1fr);
-          padding-bottom: 0px; } }
-    @media (min-width: 1199px) {
-      .form__question__inputs__input {
-        padding: 7.5px 0; } }
-    .form__question__inputs__input label {
-      color: black;
-      font-family: GE Sans bold;
-      font-size: 15px; }
-      @media (min-width: 1199px) {
-        .form__question__inputs__input label {
-          font-size: 18px; } }
-    .form__question__inputs__input input {
+    border-radius: 10px;
+    background-color: white;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+    padding: 20px; }
+    .form__text__imagen {
       width: 100%;
-      padding: 15px;
-      background-color: #F6F6F6F6;
-      border: none;
-      border-radius: 32px; }
-    .form__question__inputs__input textarea {
-      height: 200px;
-      padding: 15px;
-      background-color: #F6F6F6F6;
-      border: none;
-      border-radius: 32px; }
-    .form__question__inputs__input__button {
+      position: relative;
+      top: -50px;
+      left: -50px; }
+      @media (min-width: 678px) {
+        .form__text__imagen {
+          width: 500px; } }
+    .form__text__text {
       width: 100%;
       display: flex;
       align-items: center;
-      justify-content: center; }
-      .form__question__inputs__input__button button {
-        width: 100%;
-        border: 2px solid #253596;
-        margin-top: 10px;
-        background-color: #253596;
-        font-family: Poppins-Bold;
-        padding: 15px;
-        color: white;
+      justify-content: center;
+      flex-direction: column;
+      gap: 30px; }
+      .form__text__text h1 {
+        color: #32236F;
         font-size: 15px;
-        text-align: center;
-        border-radius: 32px; }
+        padding: 3px;
+        font-weight: bold; }
         @media (min-width: 1199px) {
-          .form__question__inputs__input__button button {
+          .form__text__text h1 {
             font-size: 18px; } }
-      .form__question__inputs__input__button button:hover {
-        background-color: white;
-        color: #253596;
-        border: 2px solid #253596; }
+      .form__text__text__grid {
+        display: flex; }
+        .form__text__text__grid__text {
+          max-width: 500px; }
+          @media (min-width: 1199px) {
+            .form__text__text__grid__text {
+              width: 500px; } }
+          .form__text__text__grid__text p {
+            color: #32236F;
+            font-size: 15px;
+            padding: 3px; }
+            @media (min-width: 1199px) {
+              .form__text__text__grid__text p {
+                font-size: 18px; } }
+          .form__text__text__grid__text span {
+            font-weight: bold;
+            color: #6A49F2; }
+        .form__text__text__grid__imagen {
+          height: 40px; }
 
 .thanks {
   width: 100%;

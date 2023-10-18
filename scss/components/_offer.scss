@@ -11,6 +11,7 @@
     .container{
         @include flex-center-center;
         flex-direction: column;
+        border-radius: 20px;
     }
 
     &--prev{
@@ -50,9 +51,9 @@
         @include flex-center-center;
         background-image: url('../../img/fondo-serv-espe.webp');
         background-position: center;
+        background-size: cover;
         background-repeat: no-repeat;
         flex-direction: column;
-        background-color: red;
         padding: 30px;
         border-radius: 20px;
         width: 100%;
