@@ -1,0 +1,2 @@
+# Samsumg
+# Ld-Samsung
