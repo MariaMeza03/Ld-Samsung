@@ -14,10 +14,11 @@
   }
 
       h2{
-        color: $black;
+        color: $Bluish_Purple_two;
         font-size: 20px;
         text-align: center;
-        font-family: GE Sans bold;
+        font-family: Poppins-Regular;
+        font-weight: bold;
 
         @media(min-width:768px){
             font-size: 25px;
@@ -30,7 +31,7 @@
 
     p{
       padding-top: 15px;
-      color: $black;
+      color: $Meteorite;
       font-family: Poppins-Regular;
       font-size: 15px;
       text-align: center;
@@ -45,9 +46,9 @@
       @include flex-center-center;
       
       a{
-          border: 2px solid $elephant;
+          border: 2px solid $Bluish_Purple;
           margin-top: 30px;
-          background-color:$elephant ;
+          background-color:$Bluish_Purple;
           font-family: Poppins-Bold;
           padding: 15px 30px ;
           color:white;
@@ -67,14 +68,14 @@
 
       a:hover{
           background-color:$white ;
-          color: $science_blue;
-          border: 2px solid $science_blue;
+          color: $Bluish_Purple;
+          border: 2px solid $Bluish_Purple;
       }
   }
 
     a:hover{
       background-color:$white ;
-      color: $elephant;
-      border: 2px solid $elephant;
+      color: $Bluish_Purple;
+      border: 2px solid $Bluish_Purple;
     }
 }

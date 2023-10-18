@@ -40,8 +40,13 @@
     }
 
     &__imagen{
-        width: 100%;
-        height:auto;
+        margin: auto;
+        width: 70%;
+
+        @media(min-width: 1199px){
+            width: 100%;
+            height:auto;
+        }
 
     }
 
@@ -66,8 +71,12 @@
             }
 
             &__text{
-                max-width: 800px;
-                width: 300px;
+
+                @media(min-width:678px){
+                    max-width: 800px;
+                    width: 300px;
+                }
+
                 p{
                     color: $Meteorite;
                     font-size: 15px;
@@ -88,7 +97,13 @@
     }
 
     &__button{
+
         @include flex-center-center;
+
+        @media(max-width:1199px){
+            width: 90%;
+            margin: auto;
+        }
 
         a{
             border: 2px solid $Bluish_Purple;
@@ -96,7 +111,7 @@
             background-color:$Bluish_Purple;
             font-family: Poppins-Bold;
             font-weight: bold;
-            padding: 15px 80px ;
+            padding: 15px;
             color:$white;
             border-radius: 20px;
             text-align: center;
@@ -106,6 +121,7 @@
             }
 
             @media(min-width:768px){
+                padding: 15px 80px ;
                 font-size: 25px;
                 
             }
