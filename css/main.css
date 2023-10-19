@@ -1055,7 +1055,7 @@
           color: #32236F;
           font-size: 15px;
           padding: 3px;
-          font-weight: bold; }
+          font-family: Poppins-Bold; }
           @media (min-width: 1199px) {
             .form__imagen__row__text p {
               font-size: 18px; } }
@@ -1083,10 +1083,10 @@
       flex-direction: column;
       gap: 30px; }
       .form__text__text h1 {
-        color: #32236F;
+        color: #6A49F2;
         font-size: 15px;
         padding: 3px;
-        font-weight: bold; }
+        font-family: Poppins-Bold; }
         @media (min-width: 1199px) {
           .form__text__text h1 {
             font-size: 18px; } }
@@ -1108,8 +1108,7 @@
               .form__text__text__grid__text p {
                 font-size: 18px; } }
           .form__text__text__grid__text span {
-            font-weight: bold;
-            color: #6A49F2; }
+            font-family: Poppins-Bold; }
         .form__text__text__grid__imagen {
           height: 40px; }
 

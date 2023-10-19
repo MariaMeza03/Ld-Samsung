@@ -41,7 +41,7 @@
                     color: $Meteorite;
                     font-size: 15px;
                     padding: 3px;
-                    font-weight: bold;
+                    font-family: Poppins-Bold;
             
                     @media(min-width: 1199px){
                         font-size: 18px;
@@ -78,10 +78,10 @@
             gap: 30px;
 
             h1{
-                color: $Meteorite;
+                color: $Bluish_Purple;
                 font-size: 15px;
                 padding: 3px;
-                font-weight: bold;
+                font-family: Poppins-Bold;
         
                 @media(min-width: 1199px){
                     font-size: 18px;
@@ -104,6 +104,7 @@
                         color: $Meteorite;
                         font-size: 15px;
                         padding: 3px;
+                        
                 
                         @media(min-width: 1199px){
                             font-size: 18px;
@@ -111,8 +112,7 @@
                     }
         
                     span{
-                        font-weight: bold;
-                        color: $Bluish_Purple;
+                        font-family: Poppins-Bold;
                     }
                 }
 
