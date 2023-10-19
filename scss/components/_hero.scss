@@ -28,20 +28,20 @@
         
         h1{
             color: $Meteorite;
-            font-size: 25px;
+            font-size: 30px;
             font-weight:bold;
             text-align: center;
             font-family: Poppins-Bold;
             line-height: 32px;
 
             @media(min-width:768px){ //*phone
-                font-size: 45px;
+                font-size: 38px;
                 line-height:50px;
             }
 
             @media(min-width:1199px){ //*table
                 text-align: start;
-                font-size: 60px;
+                font-size: 50px;
             }
 
             @media(min-width:1700px){//*Desktop
@@ -51,20 +51,20 @@
         }
 
         span{
-            font-size: 25px;
+            font-size: 30px;
             font-weight:bold;
             text-align: center;
             font-family: Poppins-Bold;
             line-height: 32px;
 
             @media(min-width:768px){ //*phone
-                font-size: 45px;
+                font-size: 38px;
                 line-height:50px;
             }
 
             @media(min-width:1199px){ //*table
                 text-align: start;
-                font-size: 60px;
+                font-size: 50px;
             }
 
             @media(min-width:1700px){//*Desktop
@@ -92,7 +92,6 @@
         }
 
         &__button{
-            width: 100%;
             @include flex-center-center;
 
             @media(min-width:1199px){
@@ -112,11 +111,11 @@
                 text-align: center;
 
                 @media(min-width:300px){
-                    font-size: 20px;         
+                    font-size: 16px;         
                 }
     
                 @media(min-width:768px){
-                    font-size: 25px;
+                    font-size: 18px;
                     
                 }
             }
