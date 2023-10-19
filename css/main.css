@@ -1091,7 +1091,10 @@
           .form__text__text h1 {
             font-size: 18px; } }
       .form__text__text__grid {
-        display: flex; }
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 10px; }
         .form__text__text__grid__text {
           max-width: 500px; }
           @media (min-width: 1199px) {
