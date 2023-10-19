@@ -104,14 +104,15 @@
                     width: 100%;
                     @include flex-center-center;
 
-                    a{
-                        border: 2px solid $white;
+                    button{
+                        width: 100%;
+                        border: 2px solid $Bluish_Purple;
                         margin-top: 15px;
-                        background-color:$white;
+                        background-color:$Bluish_Purple;
                         font-family: Poppins-Bold;
                         font-weight: bold;
                         padding: 15px;
-                        color:$Bluish_Purple;
+                        color:$white;
                         border-radius: 20px;
                         text-align: center;
             
@@ -131,11 +132,11 @@
              
                     }
             
-                    a:hover{
-            background-color:$Bluish_Purple ;
-            color: $white;
-            border: 2px solid $Bluish_Purple;
-        }
+                    button:hover{
+                    background-color:$white ;
+                    color: $Bluish_Purple;
+                    border: 2px solid $Bluish_Purple;
+                }
                 }
             }
 

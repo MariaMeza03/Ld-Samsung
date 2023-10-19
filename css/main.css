@@ -983,29 +983,30 @@
         display: flex;
         align-items: center;
         justify-content: center; }
-        .domestic__text__inputs__input__button a {
-          border: 2px solid white;
+        .domestic__text__inputs__input__button button {
+          width: 100%;
+          border: 2px solid #6A49F2;
           margin-top: 15px;
-          background-color: white;
+          background-color: #6A49F2;
           font-family: Poppins-Bold;
           font-weight: bold;
           padding: 15px;
-          color: #6A49F2;
+          color: white;
           border-radius: 20px;
           text-align: center; }
           @media (min-width: 300px) {
-            .domestic__text__inputs__input__button a {
+            .domestic__text__inputs__input__button button {
               font-size: 16px; } }
           @media (min-width: 768px) {
-            .domestic__text__inputs__input__button a {
+            .domestic__text__inputs__input__button button {
               padding: 15px 80px;
               font-size: 18px; } }
           @media (min-width: 1199px) {
-            .domestic__text__inputs__input__button a {
+            .domestic__text__inputs__input__button button {
               margin-top: 30px; } }
-        .domestic__text__inputs__input__button a:hover {
-          background-color: #6A49F2;
-          color: white;
+        .domestic__text__inputs__input__button button:hover {
+          background-color: white;
+          color: #6A49F2;
           border: 2px solid #6A49F2; }
   .domestic__imagen {
     display: flex;
@@ -1046,7 +1047,8 @@
       width: 100%;
       display: grid;
       grid-template-columns: repeat(2, 1fr);
-      margin: auto; }
+      margin: auto;
+      padding: 7px 0; }
       .form__imagen__row__imagen {
         width: 180px; }
       .form__imagen__row__text {
