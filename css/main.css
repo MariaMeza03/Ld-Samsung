@@ -1097,15 +1097,12 @@
           .form__text__text h1 {
             font-size: 35px; } }
       .form__text__text__grid {
-        display: flex;
-        justify-content: center;
-        align-items: center;
+        width: 100%;
+        display: grid;
+        grid-template-columns: repeat(4, 1fr);
         gap: 10px; }
         .form__text__text__grid__text {
-          max-width: 70%; }
-          @media (min-width: 1199px) {
-            .form__text__text__grid__text {
-              width: 500px; } }
+          grid-column: 2/5; }
           .form__text__text__grid__text p {
             color: #32236F;
             font-size: 15px;
@@ -1116,11 +1113,15 @@
           .form__text__text__grid__text span {
             font-family: Poppins-Bold; }
         .form__text__text__grid__imagen {
-          height: 20px;
-          width: 20px; }
+          margin: auto;
+          height: 20px !important;
+          width: 20px !important; }
           @media (min-width: 1199px) {
             .form__text__text__grid__imagen {
-              height: 40px; } }
+              width: 40px !important;
+              height: 40px !important; } }
+          .form__text__text__grid__imagen img {
+            width: 100%; }
 
 .thanks {
   width: 100%;
