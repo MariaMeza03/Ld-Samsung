@@ -31,10 +31,17 @@
             gap: 15px;
 
             &__imagen{
-                height: 91px;
+                width: auto;
+                height: 70px;
                 margin: auto;
 
+                img{
+                    width: auto;
+                    height: 100%;
+                }
+                
                 @media(min-width: 768px){
+                    height: 90px;
                     @include flex-center-center;
                     margin: 0;
                 }
