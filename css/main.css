@@ -199,7 +199,7 @@
 
 .footer {
   width: 100%;
-  background-color: #6A49F2;
+  background-color: #1428A0;
   padding: 30px 0;
   position: absolute; }
   @media (min-width: 1199px) {
@@ -298,7 +298,7 @@
         align-items: flex-start;
         justify-content: center; } }
     .hero__text h1 {
-      color: #32236F;
+      color: #040f53;
       font-size: 30px;
       font-weight: bold;
       text-align: center;
@@ -322,7 +322,7 @@
       text-align: center;
       font-family: Poppins-Bold;
       line-height: 32px;
-      color: #6A49F2; }
+      color: #1428A0; }
       @media (min-width: 768px) {
         .hero__text span {
           font-size: 38px;
@@ -359,9 +359,9 @@
           justify-content: flex-start; } }
       .hero__text__button a {
         width: 100%;
-        border: 2px solid #6A49F2;
+        border: 2px solid #1428A0;
         margin-top: 30px;
-        background-color: #6A49F2;
+        background-color: #1428A0;
         font-family: Poppins-Bold;
         padding: 20px 30px;
         color: white;
@@ -376,8 +376,8 @@
             font-size: 18px; } }
       .hero__text__button a:hover {
         background-color: white;
-        color: #6A49F2;
-        border: 2px solid #6A49F2; }
+        color: #1428A0;
+        border: 2px solid #1428A0; }
   .hero__imagen {
     position: relative;
     top: 0;
@@ -436,7 +436,7 @@
         flex-direction: column;
         gap: 15px; }
         .services__grid__item__text h1 {
-          color: #5F3EEF;
+          color: #1428A0;
           font-size: 15px;
           text-align: center;
           font-family: Poppins-Bold; }
@@ -512,7 +512,7 @@
             font-size: 18px; } }
       .solution__text__information__text span {
         font-weight: bold;
-        color: #6A49F2; }
+        color: #1428A0; }
   .solution__button {
     display: flex;
     align-items: center;
@@ -522,9 +522,9 @@
         width: 90%;
         margin: auto; } }
     .solution__button a {
-      border: 2px solid #6A49F2;
+      border: 2px solid #1428A0;
       margin-top: 15px;
-      background-color: #6A49F2;
+      background-color: #1428A0;
       font-family: Poppins-Bold;
       font-weight: bold;
       padding: 15px;
@@ -543,8 +543,8 @@
           margin-top: 30px; } }
     .solution__button a:hover {
       background-color: white;
-      color: #6A49F2;
-      border: 2px solid #6A49F2; }
+      color: #1428A0;
+      border: 2px solid #1428A0; }
 
 .offer {
   width: 100%;
@@ -650,7 +650,7 @@
           .offer__content__grid__item__text h1 {
             font-weight: normal;
             width: 100%;
-            color: #5F3EEF;
+            color: #1428A0;
             font-family: Poppins-Bold;
             font-size: 15px;
             text-align: center;
@@ -688,7 +688,7 @@
           .offer__content__carrousel__item__text h1 {
             font-weight: normal;
             width: 100%;
-            color: #5F3EEF;
+            color: #1428A0;
             font-family: Poppins-Bold;
             font-size: 15px;
             text-align: center;
@@ -731,9 +731,9 @@
         align-items: center;
         justify-content: flex-end; } }
     .offer__button a {
-      border: 2px solid #6A49F2;
+      border: 2px solid #1428A0;
       margin-top: 15px;
-      background-color: #6A49F2;
+      background-color: #1428A0;
       font-family: Poppins-Bold;
       font-weight: bold;
       padding: 15px;
@@ -752,8 +752,8 @@
           margin-top: 30px; } }
     .offer__button a:hover {
       background-color: white;
-      color: #6A49F2;
-      border: 2px solid #6A49F2; }
+      color: #1428A0;
+      border: 2px solid #1428A0; }
 
 .swiper {
   width: 100%;
@@ -882,7 +882,7 @@
       font-family: Poppins-Bold;
       font-weight: bold;
       padding: 15px;
-      color: #6A49F2;
+      color: #1428A0;
       border-radius: 20px;
       text-align: center; }
       @media (min-width: 300px) {
@@ -896,9 +896,9 @@
         .the_best__button a {
           margin-top: 30px; } }
     .the_best__button a:hover {
-      background-color: #6A49F2;
+      background-color: #1428A0;
       color: white;
-      border: 2px solid #6A49F2; }
+      border: 2px solid #1428A0; }
 
 .domestic {
   width: 100%;
@@ -936,7 +936,7 @@
         align-items: flex-start;
         justify-content: center; } }
     .domestic__text h1 {
-      color: #6A49F2;
+      color: #1428A0;
       font-size: 20px;
       font-family: Poppins-Bold;
       text-align: center; }
@@ -964,7 +964,7 @@
         .domestic__text__inputs__input {
           padding: 7.5px 0; } }
       .domestic__text__inputs__input label {
-        color: #6A49F2;
+        color: #1428A0;
         font-family: Poppins-Bold;
         font-size: 15px; }
         @media (min-width: 1199px) {
@@ -991,9 +991,9 @@
         justify-content: center; }
         .domestic__text__inputs__input__button button {
           width: 100%;
-          border: 2px solid #6A49F2;
+          border: 2px solid #1428A0;
           margin-top: 15px;
-          background-color: #6A49F2;
+          background-color: #1428A0;
           font-family: Poppins-Bold;
           font-weight: bold;
           padding: 15px;
@@ -1012,8 +1012,8 @@
               margin-top: 30px; } }
         .domestic__text__inputs__input__button button:hover {
           background-color: white;
-          color: #6A49F2;
-          border: 2px solid #6A49F2; }
+          color: #1428A0;
+          border: 2px solid #1428A0; }
   .domestic__imagen {
     display: flex;
     align-items: center;
@@ -1095,7 +1095,7 @@
       flex-direction: column;
       gap: 30px; }
       .form__text__text h1 {
-        color: #6A49F2;
+        color: #1428A0;
         font-size: 25px;
         padding: 3px;
         font-family: Poppins-Bold; }
@@ -1144,7 +1144,7 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr); }
   .thanks h2 {
-    color: #5F3EEF;
+    color: #1428A0;
     font-size: 20px;
     text-align: center;
     font-family: Poppins-Regular;
@@ -1170,9 +1170,9 @@
     align-items: center;
     justify-content: center; }
     .thanks__button a {
-      border: 2px solid #6A49F2;
+      border: 2px solid #1428A0;
       margin-top: 30px;
-      background-color: #6A49F2;
+      background-color: #1428A0;
       font-family: Poppins-Bold;
       padding: 15px 30px;
       color: white;
@@ -1187,12 +1187,12 @@
           font-size: 25px; } }
     .thanks__button a:hover {
       background-color: white;
-      color: #6A49F2;
-      border: 2px solid #6A49F2; }
+      color: #1428A0;
+      border: 2px solid #1428A0; }
   .thanks a:hover {
     background-color: white;
-    color: #6A49F2;
-    border: 2px solid #6A49F2; }
+    color: #1428A0;
+    border: 2px solid #1428A0; }
 
 .banner_privacidad {
   width: 100%;
